@@ -4,7 +4,7 @@
 </a>
 </div>
 
-# Out-of-body image detection in surgical viddeos
+# Out-of-body image detection in surgical videos
 
 ***Research Group CAMMA / University of Strasbourg / IHU Strasbourg***
 
