@@ -33,16 +33,20 @@ Alternatively, you can launch the GUI application by running the following comma
 
 1. Install Anaconda on your computer if you don't already have it. You can download it from [here](https://www.anaconda.com/).
 
-2. Create a new conda environment
+2. Clone this repository then ```cd``` to its directory on your computer. Download the model checkpoint
+
+```wget -P ckpt https://s3.unistra.fr/camma_public/github/oobnet_detection/ckpt/oobnet_weights.h5```
+
+3. Create a new conda environment
 ```conda create --name oob_detection python==3.8.5```
 
-3. Activate the environment
+4. Activate the environment
 ```conda activate oob_detection```
 
-4. Install dependencies
+5. Install dependencies
 ```pip3 install -r requirements.txt```
 
-Note: If you have a GPU, you can replace *tensorflow* with *tensorflow-gpu* in the requirements.txt file before the 4th step.
+Note: If you have a GPU, you can replace *tensorflow* with *tensorflow-gpu* in the requirements.txt file before the 5th step.
 
 # Credits
 When referring to this software, please cite the following publication:
