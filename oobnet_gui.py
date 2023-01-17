@@ -33,8 +33,6 @@ class FileSelDlgDemo(ttk.Frame):
         self.logo1_path = os.path.join(program_directory, 'icons', 'camma.png')
         self.logo2_path = os.path.join(program_directory, 'icons', 'unistra.png')
         self.logo3_path = os.path.join(program_directory, 'icons', 'ihu.png')
-        self.logo4_path = os.path.join(program_directory, 'icons', 'inselspital.png')
-        self.logo5_path = os.path.join(program_directory, 'icons', 'unibern.png')
         self.about_img_path = os.path.join(program_directory, 'icons', 'question-mark-icon.png')
         
         # style = ttk.Style(self.master)
@@ -57,7 +55,6 @@ class FileSelDlgDemo(ttk.Frame):
         demoPanel = tk.Frame(self)
         demoPanel.pack(side=tk.TOP, fill=tk.BOTH, expand=tk.Y, pady=15)
         
-        
         for item in ('open_video', 'save_video', 'save_text'):
             frame = ttk.Frame(demoPanel)
 
@@ -77,7 +74,7 @@ class FileSelDlgDemo(ttk.Frame):
             btn = ttk.Button(frame, text='Browse...', 
                              command=lambda i=item, e=ent: self._file_dialog(i, e))
             lbl.pack(side=tk.LEFT)
-            ent.pack(side=tk.LEFT, expand=tk.Y, fill=tk.X)
+            ent.pack(side=tk.LEFT, expand=tk.Y, fill=tk.X, padx=5)
             btn.pack(side=tk.LEFT)
 
             frame.pack(fill=tk.X, padx='1c', pady=5)
@@ -109,21 +106,11 @@ class FileSelDlgDemo(ttk.Frame):
 
         frame.pack(fill=tk.X, padx='1c', pady=5)
 
-        logo_height = 70 
+        logo_height = 50 
         logo_img1 = ImageTk.PhotoImage(get_image_with_height(self.logo1_path, logo_height))
         logo_label1 = ttk.Label(self, image=logo_img1)
         logo_label1.image = logo_img1
         logo_label1.pack(side=tk.LEFT, pady=3, padx=3)
-
-        logo_img4 = ImageTk.PhotoImage(get_image_with_height(self.logo4_path, logo_height))
-        logo_label4 = ttk.Label(self, image=logo_img4)
-        logo_label4.image = logo_img4
-        logo_label4.pack(side=tk.LEFT, pady=3, padx=3)
-
-        logo_img5 = ImageTk.PhotoImage(get_image_with_height(self.logo5_path, logo_height))
-        logo_label5 = ttk.Label(self, image=logo_img5)
-        logo_label5.image = logo_img5
-        logo_label5.pack(side=tk.LEFT, pady=3, padx=3)
 
         logo_img3 = ImageTk.PhotoImage(get_image_with_height(self.logo3_path, logo_height))
         logo_label3 = ttk.Label(self, image=logo_img3)
@@ -134,8 +121,6 @@ class FileSelDlgDemo(ttk.Frame):
         logo_label2 = ttk.Label(self, image=logo_img2)
         logo_label2.image = logo_img2
         logo_label2.pack(side=tk.RIGHT, pady=3, padx=3)
-
-        
 
     def _file_dialog(self, type, ent):
         # triggered when the user clicks a 'Browse' button 
