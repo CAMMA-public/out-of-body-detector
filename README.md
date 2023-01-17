@@ -10,7 +10,7 @@
 
 http://camma.u-strasbg.fr/
 
-Out-of-body frames in endoscopic surgeries can contain privacy sensitive information. This tool is meant to help protect privacy by detecting and blurring out these out-of-body frames. The performance of this tool is reported in the publication mentioned below. The authors or their institutions can not be held liable for any privacy concern due to undetected out-of-body frames. This tool can be used through either the command-line interface or the GUI application. If you're using Windows 10, you can download and run the executable directly, from [here].
+Out-of-body frames in endoscopic surgeries can contain privacy sensitive information. This tool is meant to help protect privacy by detecting and blurring out these out-of-body frames. Its performance is reported in the publication mentioned below. This tool is provided for demonstration and without warranty. The authors or their institutions can not be held liable for any privacy concern due to undetected out-of-body frames. This tool can be used through either the command-line interface or the GUI application. If you're using Windows 10, you can download and run the executable directly, from [here].
 
 <center><img src="screenshots/oobnet_gui_usage.png" width="95%"></center>
 
