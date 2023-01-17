@@ -197,26 +197,12 @@ class FileSelDlgDemo(ttk.Frame):
     
     def _about_pressed(self):
         
-        # text = """
-        # # Credits
-        # When referring to this software, please cite the following publication:
-
-        # # License
-        # This code is available for non-commercial scientific research purposes as defined in the 
-        # [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). By downloading and 
-        # using this code you agree to the terms in the [LICENSE](LICENSE). Third-party codes are 
-        # subject to their respective licenses.
-
-        # This license allows reusers to distribute, remix, adapt, and build upon the material in any 
-        # medium or format for noncommercial purposes only, and only so long as attribution is given 
-        # to the creator. If you remix, adapt or build upon the material, you must license the modified 
-        # material under identical terms.
-        # """
         text = """  Out-of-body frames in endoscopic surgeries can contain privacy sensitive information. \
 This tool is meant to help protect privacy by detecting and blurring out these out-of-body frames. \
 The output can be either a video file (.mp4, .mov, .avi format) with out-of-body frames replaced by \
 solid color or blurred frames, or a text file (plain text, .txt or spreadsheet, .csv) returning frame \
 IDs and corresponding out-of-body predictions. The performance of this tool is reported in the publication mentioned below. \
+This tool is provided for demonstration and without warranty. \
 The authors or their institutions can not be held liable for any privacy concern due to undetected out-of-body frames.
 
   When referring to this software, please cite the following publication:
