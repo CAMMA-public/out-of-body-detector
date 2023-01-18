@@ -192,6 +192,10 @@ The authors or their institutions can not be held liable for any privacy concern
 
   When referring to this software, please cite the following publication:
 
+  J.L. Lavanchy, A. Vardazaryan, P. Mascagni, Consortium AI4SafeChole, D. Mutter, N. Padoy. Preserving Privacy in Surgical \
+Video Analysis Using Artificial Intelligence: A Deep Learning Classifier to Identify Out-of-Body Scenes in Endoscopic Videos. \
+https://arxiv.org/abs/2301.07053, doi:10.48550/ARXIV.2301.07053, 2023
+
   This code is available for non-commercial scientific research purposes as defined in the CC BY-NC-SA 4.0. \
 By downloading and using this code you agree to the terms in the LICENSE. \
 Third-party codes are subject to their respective licenses.
