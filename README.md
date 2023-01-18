@@ -51,7 +51,18 @@ Note: If you have a GPU, you can replace *tensorflow* with *tensorflow-gpu* in t
 # Credits
 When referring to this software, please cite the following publication:
 
-**cite our paper**
+```bibtex
+@misc{https://doi.org/10.48550/arxiv.2301.07053,
+  doi = {10.48550/ARXIV.2301.07053},
+  url = {https://arxiv.org/abs/2301.07053},
+  author = {Lavanchy, Joël L. and Vardazaryan, Armine and Mascagni, Pietro and Consortium, AI4SafeChole and Mutter, Didier and Padoy, Nicolas},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Preserving Privacy in Surgical Video Analysis Using Artificial Intelligence: A Deep Learning Classifier to Identify Out-of-Body Scenes in Endoscopic Videos},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+```
 
 # License
 This code is available for non-commercial scientific research purposes as defined in the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). By downloading and using this code you agree to the terms in the [LICENSE](LICENSE). Third-party codes are subject to their respective licenses.
