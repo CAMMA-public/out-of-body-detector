@@ -52,15 +52,18 @@ Note: If you have a GPU, you can replace *tensorflow* with *tensorflow-gpu* in t
 When referring to this software, please cite the following publication:
 
 ```bibtex
-@misc{https://doi.org/10.48550/arxiv.2301.07053,
-  doi = {10.48550/ARXIV.2301.07053},
-  url = {https://arxiv.org/abs/2301.07053},
-  author = {Lavanchy, Joël L. and Vardazaryan, Armine and Mascagni, Pietro and Consortium, AI4SafeChole and Mutter, Didier and Padoy, Nicolas},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Preserving Privacy in Surgical Video Analysis Using Artificial Intelligence: A Deep Learning Classifier to Identify Out-of-Body Scenes in Endoscopic Videos},
-  publisher = {arXiv},
-  year = {2023},
-  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+@article{lavanchy_preserving_2023,
+	title = {Preserving privacy in surgical video analysis using a deep learning classifier to identify out-of-body scenes in endoscopic videos},
+	volume = {13},
+	issn = {2045-2322},
+	url = {https://doi.org/10.1038/s41598-023-36453-1},
+	doi = {10.1038/s41598-023-36453-1},
+	number = {1},
+	journal = {Scientific Reports},
+	author = {Lavanchy, Joël L. and Vardazaryan, Armine and Mascagni, Pietro and AI4SafeChole Consortium and Mutter, Didier and Padoy, Nicolas},
+	month = jun,
+	year = {2023},
+	pages = {9235},
 }
 ```
 
